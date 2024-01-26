@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package="gRPC_basics/calculator/proto";
+
+message CalculatorResponse{
+  int32 result = 1;
+}
+
+message CalculatorRequest{
+  int32 first_number = 1;
+  int32 second_number = 2;
+}

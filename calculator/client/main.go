@@ -19,5 +19,8 @@ func main() {
 	defer conn.Close()
 
 	c := pb.NewCalculatorServiceClient(conn)
-	doCalculate(c)
+	//doCalculate(c)
+	//doPrime(c)
+	//doAvg(c)
+	doMax(c)
 }

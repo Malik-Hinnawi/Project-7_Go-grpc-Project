@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package="gRPC_basics/calculator/proto";
+
+message PrimeRequest {
+  int32 firstNumber = 1;
+}
+
+message PrimeResponse {
+  int32 result = 1;
+}

@@ -5,7 +5,15 @@ package calculator;
 option go_package="gRPC_basics/calculator/proto";
 
 import "sum.proto";
+import "prime.proto";
+import "avg.proto";
+import "max.proto";
+import "sqrt.proto";
 
 service CalculatorService{
   rpc Calculate (CalculatorRequest) returns (CalculatorResponse);
+  rpc Prime (PrimeRequest) returns (stream PrimeResponse);
+  rpc Avg (stream AvgRequest) returns (AvgResponse);
+  rpc Max (stream MaxRequest) returns (stream MaxResponse);
+  rpc Sqrt (SqrtRequest) returns (SqrtResponse);
 }

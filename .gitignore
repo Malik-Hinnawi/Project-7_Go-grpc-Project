@@ -1,0 +1,10 @@
+/calculator/proto/avg.pb.go
+/ssl/ca.crt
+/ssl/ca.key
+/calculator/proto/max.pb.go
+/calculator/proto/prime.pb.go
+/ssl/server.crt
+/ssl/server.csr
+/ssl/server.key
+/ssl/server.pem
+/calculator/proto/sqrt.pb.go

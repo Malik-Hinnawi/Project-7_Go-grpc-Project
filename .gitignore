@@ -8,3 +8,7 @@
 /ssl/server.key
 /ssl/server.pem
 /calculator/proto/sqrt.pb.go
+/blog/proto/blog.pb.go
+/blog/proto/blog_grpc.pb.go
+/bin/blog/client
+/bin/blog/server
